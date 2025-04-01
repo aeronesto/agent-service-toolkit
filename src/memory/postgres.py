@@ -2,7 +2,6 @@ import logging
 
 from langgraph.checkpoint.base import BaseCheckpointSaver
 from langgraph.checkpoint.postgres.aio import AsyncPostgresSaver
-from langgraph.store.base import BaseStore
 from langgraph.store.postgres import AsyncPostgresStore
 
 from core.settings import settings
