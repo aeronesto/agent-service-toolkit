@@ -10,7 +10,7 @@ from agents.langgraph_supervisor_agent import langgraph_supervisor_agent
 from agents.research_assistant import research_assistant
 from schema import AgentInfo
 
-DEFAULT_AGENT = "research-assistant"
+DEFAULT_AGENT = "interrupt-agent"
 
 
 @dataclass
